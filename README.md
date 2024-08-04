@@ -18,3 +18,42 @@ There must be minimal number of spaces on the beginning of lines, with respect t
 
 Print one blank line after each test case, including the last one.
 
+### Example
+Sample Input:
+
+```
+4  
+12345+67890  
+324-111  
+325*4405  
+1234*4  
+```
+
+Sample Output:
+
+```
+ 12345
++67890
+------
+ 80235
+
+ 324
+-111
+----
+ 213
+
+    325
+  *4405
+  -----
+   1625
+     0
+ 1300
+1300
+-------
+1431625
+
+1234
+  *4
+----
+4936
+```
